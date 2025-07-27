@@ -20,6 +20,6 @@ There is also information about a software and hardware patch to be able to work
 There is only one software (with source code) available for this interface.
 
 ## Comparative
-![Copper Side](pics/QL_Miracle_Midi_C.png)
+![Copper Side](QL_Miracle_Midi_C.png)
 ![Components Side ](QL_Miracle_Midi_S.png)
 
