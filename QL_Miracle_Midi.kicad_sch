@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Miracle QL MIDI Interface V3")
-		(date "2025-07-24")
+		(date "2025-12-04")
 		(rev "0.0")
 		(company "reverse enginered by Alvaro Alea")
 	)
@@ -7045,6 +7045,12 @@
 		(uuid "3472dc5d-5f27-4663-846b-0cddcfad4b5d")
 	)
 	(junction
+		(at 257.81 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e851a78-3cb3-44b8-b611-e8dec657ebb9")
+	)
+	(junction
 		(at 40.64 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7183,10 +7189,6 @@
 		(uuid "fc39208d-e761-494e-8aa4-37084389b514")
 	)
 	(no_connect
-		(at 372.11 151.13)
-		(uuid "198a8f32-f8a0-4204-9ca9-5ca11ca67748")
-	)
-	(no_connect
 		(at 283.21 153.67)
 		(uuid "1b58fe2a-7319-4265-bc14-3fa9494bbd7f")
 	)
@@ -7281,10 +7283,6 @@
 	(no_connect
 		(at 179.07 205.74)
 		(uuid "fa963c42-2b38-465d-805f-1a230a3d1eb0")
-	)
-	(no_connect
-		(at 344.17 151.13)
-		(uuid "fdc5660c-bfbc-41ab-9608-ca79f5168792")
 	)
 	(bus_entry
 		(at 201.93 46.99)
@@ -8815,6 +8813,16 @@
 			(type default)
 		)
 		(uuid "40155bfb-4847-4f42-a0fc-39111395cfbc")
+	)
+	(wire
+		(pts
+			(xy 257.81 156.21) (xy 257.81 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4062f578-dab9-4a1f-8c2a-10cf49160433")
 	)
 	(wire
 		(pts
@@ -10416,6 +10424,16 @@
 		)
 		(uuid "b8a5a990-78b2-4241-b98b-334a0d10eb79")
 	)
+	(wire
+		(pts
+			(xy 257.81 156.21) (xy 260.35 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95efff3-af21-4b45-b9a2-b8746201f394")
+	)
 	(bus
 		(pts
 			(xy 247.65 110.49) (xy 247.65 107.95)
@@ -10685,6 +10703,16 @@
 			(type default)
 		)
 		(uuid "cab36f86-3d72-4f4f-ae3e-eed0319db417")
+	)
+	(wire
+		(pts
+			(xy 257.81 153.67) (xy 257.81 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2e64dd-e313-4168-a160-4012b9e054f0")
 	)
 	(wire
 		(pts
@@ -11265,6 +11293,16 @@
 			(type default)
 		)
 		(uuid "f925cb93-0e05-4e8d-8498-392e246ebf08")
+	)
+	(wire
+		(pts
+			(xy 260.35 153.67) (xy 257.81 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8ef865-2f7b-41ab-aa62-fa25438b51da")
 	)
 	(bus
 		(pts
@@ -12617,6 +12655,72 @@
 			(project "QL_Miracle_Midi"
 				(path "/7208cd64-ad9c-4b78-9ce9-3e808fe0c4bf"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1261b352-df33-4c51-93c2-01a0e7ae5f9d")
+		(property "Reference" "#PWR034"
+			(at 257.81 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72fcc414-70c5-4e8b-b0ac-f4cf4ed61926")
+		)
+		(instances
+			(project "QL_Miracle_Midi"
+				(path "/7208cd64-ad9c-4b78-9ce9-3e808fe0c4bf"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14416,6 +14520,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 344.17 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fd9caf1-d28b-48d5-b422-2d36258b53b8")
+		(property "Reference" "#PWR035"
+			(at 344.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 344.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 344.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dd76dff-3fea-438f-856e-c523726e3238")
+		)
+		(instances
+			(project "QL_Miracle_Midi"
+				(path "/7208cd64-ad9c-4b78-9ce9-3e808fe0c4bf"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 222.25 199.39 0)
 		(unit 1)
@@ -14619,6 +14789,72 @@
 			(project "QL_Miracle_Midi"
 				(path "/7208cd64-ad9c-4b78-9ce9-3e808fe0c4bf"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 372.11 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63ff1a1c-f1fd-4e83-b58a-32551298425d")
+		(property "Reference" "#PWR036"
+			(at 372.11 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 372.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a434d44-6f16-4af1-b652-2aee30b37afb")
+		)
+		(instances
+			(project "QL_Miracle_Midi"
+				(path "/7208cd64-ad9c-4b78-9ce9-3e808fe0c4bf"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15504,7 +15740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8bits:DIN-5-female-pcb-horizontal"
+		(property "Footprint" "8bits:DIN-5-MIDI-female-pcb-horizontal"
 			(at 318.77 158.75 0)
 			(effects
 				(font
@@ -18227,7 +18463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8bits:DIN-5-female-pcb-horizontal"
+		(property "Footprint" "8bits:DIN-5-MIDI-female-pcb-horizontal"
 			(at 372.11 158.75 0)
 			(effects
 				(font
@@ -18304,7 +18540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8bits:DIN-5-female-pcb-horizontal"
+		(property "Footprint" "8bits:DIN-5-MIDI-female-pcb-horizontal"
 			(at 344.17 158.75 0)
 			(effects
 				(font
