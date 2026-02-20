@@ -14085,17 +14085,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 336.55 144.78 0)
+		(lib_id "power:GND")
+		(at 364.49 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42245def-8b39-4ce8-954f-57858113c643")
-		(property "Reference" "#PWR015"
-			(at 336.55 148.59 0)
+		(uuid "3d9fc043-70d9-46d0-a446-6c97e8a80d61")
+		(property "Reference" "#PWR016"
+			(at 364.49 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14103,8 +14103,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 336.55 139.7 0)
+		(property "Value" "GND"
+			(at 364.49 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14112,7 +14112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 144.78 0)
+			(at 364.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14121,7 +14121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 144.78 0)
+			(at 364.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14129,8 +14129,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 336.55 144.78 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14139,12 +14139,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c745e3a-f278-4ee2-8def-000b176ed550")
+			(uuid "d547007e-2dbd-49ea-a617-5cb85aafd528")
 		)
 		(instances
 			(project "QL_Miracle_Midi"
 				(path "/7208cd64-ad9c-4b78-9ce9-3e808fe0c4bf"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15825,6 +15825,72 @@
 			(project "QL_Miracle_Midi"
 				(path "/7208cd64-ad9c-4b78-9ce9-3e808fe0c4bf"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 336.55 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76156086-4021-4ed8-ae0e-e9bbf8eeb74e")
+		(property "Reference" "#PWR015"
+			(at 336.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed75263d-1967-4427-ac70-700e0310dfe7")
+		)
+		(instances
+			(project "QL_Miracle_Midi"
+				(path "/7208cd64-ad9c-4b78-9ce9-3e808fe0c4bf"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -19004,72 +19070,6 @@
 			(project "QL_Miracle_Midi"
 				(path "/7208cd64-ad9c-4b78-9ce9-3e808fe0c4bf"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 364.49 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1abf5a4-9fcb-4584-a22c-9a450a560690")
-		(property "Reference" "#PWR016"
-			(at 364.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 364.49 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 364.49 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "245748e2-1d52-479b-862f-4c9d5caccc89")
-		)
-		(instances
-			(project "QL_Miracle_Midi"
-				(path "/7208cd64-ad9c-4b78-9ce9-3e808fe0c4bf"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
